@@ -1,0 +1,45 @@
+.navmain {
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #fff;
+    width: 100%;
+    border-bottom: solid 1px #eee;
+    height: 80px;
+    align-items: center;
+}
+
+.nav_icon {
+    height: 22px;
+}
+
+.nav_logo img {
+    height: 25px;
+    width: 105px;
+}
+
+.nav_content ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+li{
+    margin:0  10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.langimg{
+    height: 20px;
+    width: 20px;
+}
