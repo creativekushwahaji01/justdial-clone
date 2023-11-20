@@ -1,0 +1,163 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+ol.words {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  vertical-align: top;
+  height: 1em;
+  overflow: hidden;
+}
+
+ol.words > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation-name: change;
+  animation-duration: 3.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* words_animation = 0.2s */
+/* words_delay = 1s */
+/* duration = 3.6s */
+/* anim = 16.6666666667% */
+/* delay = 83.3333333333% */
+@keyframes change {
+  0% {
+    transform: translate3d(0, 0%, 0);
+  }
+  20.8333333333% {
+    transform: translate3d(0, 0%, 0);
+  }
+  29.1666666667% {
+    transform: translate3d(0, -100%, 0);
+  }
+  70.8333333333% {
+    transform: translate3d(0, -100%, 0);
+  }
+  79.1666666667% {
+    transform: translate3d(0, -0%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0%, 0);
+  }
+}
+
+h1{
+  color: #111;
+  font-size: 26px;
+}
+span{
+  color: #0076d7;
+}
+.searchbar{
+  padding: 20px 45px 30px;
+}
+.search_main{
+  display: flex;
+  font-size: 11px;
+}
+.location{
+  width: 188px;
+  height: 50px;
+  border: solid.5px #111;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  margin-right: 5px;
+}
+.product{
+  width: 493px;
+  height: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+  border: solid.5px #111;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.locimg{
+    background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/location_icon.svg);
+    width: 37px;
+    height: 100%;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.location {
+  background-color: transparent;
+  padding-left: 35px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.locimg {
+  margin-top: -50px;
+}
+.search_but1{
+  background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_white_icon.svg);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+.search_but{
+  background-color: #fe610c;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -42px;
+  border-radius: 5px;
+}
+.product_serch {
+  display: flex;
+  align-items: center;
+}
+.app{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app_down_but{
+ background-color: #fff;
+ border: 2px solid #111;
+ width: 140px;
+ height: 31px;
+ border-right: transparent;
+ border-radius: 5px 0 0 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.app_down_but1{
+  height: 51px;
+  width: 25px;
+  border: 2px solid #111;
+  border-radius: 5px;
+}
+.app_down_but1 p{
+ text-align: center;
+}
+.icon{
+  background-image: url(https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/getapp_jd.gif);
+  width: 24px;
+  height: 41px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -12px;
+}
+.searchbar_main_box{
+  display: flex;
+  justify-content: space-between;
+}
